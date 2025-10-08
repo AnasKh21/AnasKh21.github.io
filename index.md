@@ -1,82 +1,109 @@
 ---
-title: "Bienvenue — Anas Khayar"
-permalink: /
+title: "Accueil — Anas Khayar"
 layout: default
+permalink: /
 ---
 
-# Salut — moi c’est **Anas**
-Développeur full-stack & passionné de **cybersécurité** et de **quantitative finance**.  
-Actuellement à la recherche d’un **CDI** où combiner développement robuste et culture sécurité.
+# 👋 Bienvenue, je suis **Anas Khayar**
 
----
+Développeur passionné de **cybersécurité**, d’**architecture logicielle** et de **programmation bas niveau**.  
+Je cherche un **CDI** où je peux allier **développement robuste** et **sécurité offensive/défensive**.
 
-## En bref
-- 🎓 Diplômé ENSIIE — Développeur Python / C++ / R
-- 💼 Expérience : UDS Code Generator (AUTOSAR / UDS), projets en finance quantitative
-- 🧰 Compétences clés : Python, C++, Git, Jekyll, automations, parsing ARXML, tests & sécurité
-- 🌍 Langues : Français (natif), Anglais (professionnel), Arabe
+[Aller aux compétences](#competences) • [Projets](#projets) • [Certifications](#certifications) • [Contact](#contact)
 
 ---
 
-## Projets phares
-### UCG — UDS Code Generator
-Génération automatique de callbacks UDS à partir de fichiers ARXML/CDD — extraction des services, génération des signatures C, intégration des vérifications de permissions.  
-→ [Repo GitHub](https://github.com/AnasKh21/UDS-Code-Generator)
+## 🧠 À propos
+Diplômé de l’**ENSIIE** (École Nationale Supérieure d’Informatique pour l’Industrie et l’Entreprise),  
+je combine une solide base en **développement logiciel** et une spécialisation en **cybersécurité**.  
 
-### PhishML
-Prototype ML pour la détection de phishing (NLP + features heuristiques) connecté à une boîte Gmail de test.  
-→ [Repo GitHub](https://github.com/AnasKh21/PhishML)
-
-### Swaption Pricer & TimeGAN
-Bibliothèques Python pour pricing / calibration (SABR, Bachelier) et génération de séries synthétiques par TimeGAN pour la recherche en trading quantitatif.  
-→ [Repo GitHub](https://github.com/AnasKh21)
+J’ai travaillé sur des environnements exigeants (automobile, cybersécurité, backend),  
+et j’aime résoudre des problèmes concrets avec du code propre, automatisé et sécurisé.
 
 ---
 
-## Compétences techniques
-**Langages :** Python, C++, Java, R  
-**Outils & Libs :** Git, QuantLib, TensorFlow/PyTorch, NumPy, Pandas, Streamlit, Jekyll  
-**Domaines :** Cybersecurity, embedded systems (UDS/AUTOSAR), finance quantitative, ML
+## ⚙️ <a name="competences"></a>Compétences techniques
+
+| Catégorie | Détails |
+|------------|----------|
+| **Langages** | Python, C, C++, Java, JavaScript, PHP, Node.js, Rust |
+| **Frameworks** | Flask, Express, React, Angular, Spring Boot |
+| **Sécurité** | Pentest réseau & web, IDS/IPS (Snort, Suricata), SIEM (Wazuh, ELK), Vulnérabilités, Reverse |
+| **Outils DevOps** | Docker, GitHub/GitLab CI, Kubernetes |
+| **Bases de données** | PostgreSQL, MongoDB, Neo4j |
+| **Systèmes** | Linux, Windows (durcissement, gestion utilisateurs) |
+| **Méthodologies** | Agile / Scrum, documentation technique, revue de code |
 
 ---
 
-## Expériences
-**LAMAI (Research)** — Stage recherche (Monkeypox modelling & PINNs)  
-**OpMobility / Op'nSoft** — Projet UDS Code Generator (internship, automatisation d’AC pour ECUs)  
-**Divers projets académiques** — Option Pricing, Portfolio Optimization, TimeGAN research
+## 💼 <a name="projets"></a>Projets
+
+### 🔹 **UCG — UDS Code Generator**  
+Automatisation de la génération de **callbacks UDS** et de **configurations ECU** à partir de fichiers ARXML/CDD (norme ISO 14229).  
+- Parsing XML, génération de code C, gestion dynamique des permissions.  
+- Interface graphique Python sous Windows.  
+➡️ [Voir sur GitHub](https://github.com/AnasKh21)
 
 ---
 
-## Témoignage inventé (juste pour la démo)
-> "Anas a livré un outil d'automatisation de diagnostic embarqué qui a réduit le temps de configuration d'un ECU de plusieurs heures à quelques minutes." — *Responsable produit, OpMobility*
+### 🔹 **PhishML**  
+Modèle ML simple de détection de phishing (features + NLP) connecté à une boîte Gmail test.  
+➡️ [Repo GitHub](https://github.com/AnasKh21/PhishML)
 
 ---
 
-## Me contacter
-- 📧 Email : [ton.email@example.com](mailto:ton.email@example.com)  
-- GitHub : [github.com/AnasKh21](https://github.com/AnasKh21)  
-- LinkedIn : [linkedin.com/in/anas-khayar](https://www.linkedin.com/in/anas-khayar)  
-
-[Télécharger mon CV (PDF)]({{ site.site_meta.cv_path }})
+### 🔹 **VulnScanner Lite**  
+Scanner Python léger pour la détection rapide de failles web courantes (SQLi, XSS, LFI).  
+Rapports automatisés, idéal pour audits internes.
 
 ---
 
-## Want to see code?
-Tu peux explorer mes repos directement sur GitHub :  
-[→ Mon profil GitHub]({{ site.site_meta.github_repo }})
+### 🔹 **CyberGraph** 🧩 *(projet créatif proposé)*  
+Outil de **cartographie d’attaques réseau avec Neo4j**.  
+- Importe les résultats d’un scan `nmap` ou `Wireshark`  
+- Génère un graphe d’interconnexions (machines ↔ services ↔ vulnérabilités)  
+- Détecte les chemins d’attaque via **algorithmes de graphes** (betweenness, Louvain, shortest paths)  
+- Interface visuelle Streamlit pour visualiser les chemins exploitables  
+➡️ Stack : *Python, Neo4j, Py2neo, Streamlit, Pandas*  
+Ce projet démontre des compétences en **analyse de graphes**, **visualisation** et **cyberanalyse de réseau**.
 
 ---
 
-### Note esthétique / fin
-Ceci est une page d'accueil minimaliste mais complète — le thème **Hacker** lui donne un look sobre, code-friendly.  
-Si tu veux, je peux :
-- ajouter une section **blog** ou **publications**,
-- styliser une bannière, ou
-- ajouter une page `projects.md` détaillée avec screenshots.
+### 🔹 **CTF ToolkitBuilder**  
+CLI Python regroupant les outils essentiels d’un joueur **CTF** :  
+base64/hex encoder, brute-forcer, mini-fuzzer, convertisseurs, etc.
 
-Souhaites-tu que je :
-1. Ajoute une page `projects` détaillée avec mini-captures et descriptions ?  
-2. Transforme l’index en **one-page** plus visuel (avec sections ancrées) ?  
-3. Génère une version anglaise automatique (`index.en.md`) ?
+---
 
-Dis-moi lequel et je code ça directement.
+### 🔹 **Network Audit Simulation**  
+Simulation d’un audit **Red Team** sur réseau virtuel : scan, exploitation, escalade de privilèges, rapport automatisé.
+
+---
+
+## 🎓 <a name="certifications"></a>Certifications
+
+- **Google Cybersecurity Professional Certificate** – Google Career  
+- **Introduction to Cybersecurity** – Cisco Networking Academy  
+- **Linux System Administration** – OpenClassrooms  
+
+---
+
+## 🔗 <a name="contact"></a>Contact
+
+| | |
+|-|-|
+| 📧 **Email** | [anaskhayar21@gmail.com](mailto:anaskhayar21@gmail.com) |
+| 💼 **LinkedIn** | [linkedin.com/in/anas-khayar](https://www.linkedin.com/in/anas-khayar-7004ab2bb/) |
+| 🧑‍💻 **GitHub** | [github.com/AnasKh21](https://github.com/AnasKh21) |
+| 🔒 **Root-Me** | [root-me.org/AnasKh21](https://www.root-me.org/AnasKh21) |
+| 📍 **Localisation** | Île-de-France, France |
+
+⬆️ [Retour en haut](#accueil)
+
+---
+
+<footer>
+  <p style="text-align:center;font-size:0.9em;color:#aaa;">
+    {{ site.copyright }}
+  </p>
+</footer>
