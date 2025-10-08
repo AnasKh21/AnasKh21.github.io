@@ -1,17 +1,59 @@
+# Site settings
 title: "Anas Khayar"
-description: "Software & Cybersecurity Engineer — Seeking a full-time position | Python · Node.js · Docker · Secure by design"
+description: "Portfolio — Développeur / Cybersecurity enthusiast — GitHub: AnasKh21"
+url: "https://AnasKh21.github.io" # change si besoin
+baseurl: "" # laisser vide pour user.github.io
+
+# Theme
 theme: jekyll-theme-hacker
-plugins:
-  - jekyll-remote-theme
-remote_theme: jekyll/jekyll-theme-hacker
-markdown: kramdown
+
+# Author / Social
 author:
   name: "Anas Khayar"
-  email: "anaskhayar21@gmail.com"
+  email: "ton.email@example.com" # remplace par ton email
+  github: "AnasKh21"
+  linkedin: "anas-khayar" # adapte si tu as le profil
+  location: "Paris, France"
 
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Exclude from build (ajoute fichiers que tu ne veux pas publier)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Permalinks
+permalink: pretty
+
+# Plugins (GitHub Pages builtin plugins are OK; évite d'ajouter des plugins non supportés)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination (si tu ajoutes un blog)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Defaults (facilite front matters)
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
       type: "pages"
     values:
-      layout: default
+      layout: "default"
+
+# Custom data used in templates / pages
+site_meta:
+  email_public: "ton.email@example.com"
+  cv_path: "/assets/CV_AnasKhayar.pdf" # ajoute ton CV dans assets/
+  github_repo: "https://github.com/AnasKh21"
+
+# Footer / copyright
+copyright: "© #{Time.now.year} Anas Khayar — Tous droits réservés."
+
+# Note: si tu veux forcer HTTPS, gérer domain, etc., on configure Plus tard.
