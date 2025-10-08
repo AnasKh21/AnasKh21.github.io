@@ -1,88 +1,115 @@
 ---
-title: "Accueil — Anas Khayar"
+title: "Welcome — Anas Khayar"
 layout: default
 permalink: /
 ---
 
-# 👋 Bienvenue, je suis **Anas Khayar**
+# 👋 Hello, I’m **Anas Khayar**
 
-Développeur passionné de **cybersécurité**, d’**architecture logicielle** et de **programmation bas niveau**.  
-Je cherche un **CDI** où je peux allier **développement robuste** et **sécurité offensive/défensive**.
+I’m a **software and cybersecurity engineer** passionate about designing, developing, and securing digital systems.  
+I build **secure, reliable, and efficient software** by combining my skills in **programming, cybersecurity, and formal methods**.  
 
-[Aller aux compétences](#competences) • [Projets](#projets) • [Certifications](#certifications) • [Contact](#contact)
+I can design and develop **secure code** under **Zero Trust** principles, apply **unit and security testing**, and even use **formal verification** (Atelier B, model checking) to guarantee correctness and resilience.  
+I have a **strong foundation in software development** with a **solid cybersecurity culture** — from **secure coding** and **DevOps automation** to **pentesting and incident analysis**.  
 
----
+Curious, fast-learning, and adaptable, I enjoy exploring new technologies and continuously improving both my technical and analytical skills.
 
-## 🧠 À propos
-Diplômé de l’**ENSIIE** (École Nationale Supérieure d’Informatique pour l’Industrie et l’Entreprise),  
-je combine une solide base en **développement logiciel** et une spécialisation en **cybersécurité**.  
-
-J’ai travaillé sur des environnements exigeants (automobile, cybersécurité, backend),  
-et j’aime résoudre des problèmes concrets avec du code propre, automatisé et sécurisé.
+[About](#about) • [Skills](#skills) • [Projects](#projects) • [Certifications](#certifications) • [Contact](#contact)
 
 ---
 
-## ⚙️ <a name="competences"></a>Compétences techniques
+## 🧠 <a name="about"></a>About Me
 
-| Catégorie | Détails |
-|------------|----------|
-| **Langages** | Python, C, C++, Java, JavaScript, PHP, Node.js, Rust |
-| **Frameworks** | Flask, Express, React, Angular, Spring Boot |
-| **Sécurité** | Pentest réseau & web, IDS/IPS (Snort, Suricata), SIEM (Wazuh, ELK), Vulnérabilités, Reverse |
-| **Outils DevOps** | Docker, GitHub/GitLab CI, Kubernetes |
-| **Bases de données** | PostgreSQL, MongoDB, Neo4j |
-| **Systèmes** | Linux, Windows (durcissement, gestion utilisateurs) |
-| **Méthodologies** | Agile / Scrum, documentation technique, revue de code |
+I hold an **Engineering Degree in Software Engineering & Cybersecurity** from **ENSIIE (École Nationale Supérieure d’Informatique pour l’Industrie et l’Entreprise)**, part of **Institut Mines-Télécom** and **Université Paris-Saclay**.  
+During my experiences, I worked on:
+- Secure development and software automation in the automotive sector (AUTOSAR / UDS standard)
+- Network intrusion detection, pentesting, and cybersecurity audits
+- Secure backend development and authentication systems  
+
+I am versatile — equally comfortable writing **Python scripts**, designing **web or Android applications**, or analyzing **security incidents** in simulated networks.
 
 ---
 
-## 💼 <a name="projets"></a>Projets
+## ⚙️ <a name="skills"></a>Technical Skills
 
-### 🔹 **UCG — UDS Code Generator**  
-Automatisation de la génération de **callbacks UDS** et de **configurations ECU** à partir de fichiers ARXML/CDD (norme ISO 14229).  
-- Parsing XML, génération de code C, gestion dynamique des permissions.  
-- Interface graphique Python sous Windows.  
-➡️ [Voir sur GitHub](https://github.com/AnasKh21)
-
----
-
-### 🔹 **PhishML**  
-Modèle ML simple de détection de phishing (features + NLP) connecté à une boîte Gmail test.  
-➡️ [Repo GitHub](https://github.com/AnasKh21/PhishML)
-
----
-
-### 🔹 **VulnScanner Lite**  
-Scanner Python léger pour la détection rapide de failles web courantes (SQLi, XSS, LFI).  
-Rapports automatisés, idéal pour audits internes.
+| Category | Skills |
+|-----------|---------|
+| **Programming Languages** | Python, C, C++, Java, JavaScript, PHP, Node.js, Rust |
+| **Frameworks & Tools** | Flask, Express, React, Angular, Spring Boot, Android Studio |
+| **Cybersecurity** | Pentesting (Web & Network), IDS/IPS (Snort, Suricata), SIEM (Wazuh, ELK), Vulnerability Management, Reverse Engineering |
+| **DevOps & Automation** | Docker, GitHub/GitLab CI, Kubernetes |
+| **Databases** | PostgreSQL, MongoDB, Neo4j |
+| **Operating Systems** | Linux, Windows (hardening, privilege management) |
+| **Formal & Secure Development** | Model Checking, B-Method (Atelier B), UML, Zero Trust Architecture, Secure SDLC |
+| **Methodologies** | Agile / Scrum, Documentation, Code Review, Continuous Learning |
 
 ---
 
-### 🔹 **CyberGraph** 🧩 *(projet créatif proposé)*  
-Outil de **cartographie d’attaques réseau avec Neo4j**.  
-- Importe les résultats d’un scan `nmap` ou `Wireshark`  
-- Génère un graphe d’interconnexions (machines ↔ services ↔ vulnérabilités)  
-- Détecte les chemins d’attaque via **algorithmes de graphes** (betweenness, Louvain, shortest paths)  
-- Interface visuelle Streamlit pour visualiser les chemins exploitables  
-➡️ Stack : *Python, Neo4j, Py2neo, Streamlit, Pandas*  
-Ce projet démontre des compétences en **analyse de graphes**, **visualisation** et **cyberanalyse de réseau**.
+## 💼 <a name="projects"></a>Projects
+
+### 🔹 **UCG — UDS Code Generator**
+Automated generation of **UDS diagnostic configurations** and **callback functions** from AUTOSAR ARXML/CDD files (ISO 14229).  
+- Python-based parser with dynamic permission checks  
+- C-code generation for embedded ECUs  
+- Windows UI and bilingual technical documentation  
+➡️ [View on GitHub](https://github.com/AnasKh21)
 
 ---
 
-### 🔹 **CTF ToolkitBuilder**  
-CLI Python regroupant les outils essentiels d’un joueur **CTF** :  
-base64/hex encoder, brute-forcer, mini-fuzzer, convertisseurs, etc.
+### 🔹 **PhishML**
+Machine learning project for **phishing email detection** using text-based features and classification models.  
+Connected to Gmail API for real-time scanning.  
+➡️ [GitHub Repository](https://github.com/AnasKh21/PhishML)
 
 ---
 
-### 🔹 **Network Audit Simulation**  
-Simulation d’un audit **Red Team** sur réseau virtuel : scan, exploitation, escalade de privilèges, rapport automatisé.
+### 🔹 **VulnScanner Lite**
+A lightweight **Python vulnerability scanner** for quick identification of web flaws (SQL Injection, XSS, LFI).  
+Includes automatic HTML reporting and modular signature rules.  
+➡️ Focus: Offensive security, automation, and code robustness.
+
+---
+
+### 🔹 **CyberGraph** 🧩 *(Cybersecurity & Data Project)*
+A **graph-based network attack mapping tool** using **Neo4j**.  
+- Parses scan results from `nmap` or `Wireshark`  
+- Builds graph of hosts, services, and vulnerabilities  
+- Identifies attack paths using **graph algorithms** (Betweenness, Louvain, Shortest Path)  
+- Visual interface via **Streamlit** for exploring attack routes  
+**Stack:** Python, Neo4j, Py2neo, Streamlit, Pandas  
+➡️ Demonstrates applied graph theory for **cyber threat visualization** and **network exposure analysis**.
+
+---
+
+### 🔹 **Android Application — Environmental Impact**
+Android app estimating **energy consumption and environmental footprint** based on user activities.  
+- Developed with **Android Studio** (Java)  
+- Mobile UI and background processing using **multithreading**  
+- Includes data persistence and reporting  
+➡️ Focus: Mobile software engineering and sustainable computing.
+
+---
+
+### 🔹 **Formal Specification — Secure Social Network**
+Designed and verified a **social network access model** using **Atelier B formal methods**.  
+- Modeled users, roles, and permissions  
+- Applied formal proofs to ensure access logic integrity and confidentiality  
+➡️ Focus: Formal verification, access control, and data consistency.
+
+---
+
+### 🔹 **CTF ToolkitBuilder**
+Command-line toolkit for **Capture-The-Flag** challenges.  
+- Encoders/decoders (base64, hex)  
+- Mini brute-force and fuzzing utilities  
+- Portable and modular structure for quick scripting  
+➡️ Focus: Automation and cybersecurity tooling.
 
 ---
 
 ## 🎓 <a name="certifications"></a>Certifications
 
-- **Google Cybersecurity Professional Certificate** – Google Career  
+- **Google Cybersecurity Professional Certificate** – Google Career Certificates  
 - **Introduction to Cybersecurity** – Cisco Networking Academy  
 - **Linux System Administration** – OpenClassrooms  
 
@@ -96,9 +123,9 @@ Simulation d’un audit **Red Team** sur réseau virtuel : scan, exploitation, e
 | 💼 **LinkedIn** | [linkedin.com/in/anas-khayar](https://www.linkedin.com/in/anas-khayar-7004ab2bb/) |
 | 🧑‍💻 **GitHub** | [github.com/AnasKh21](https://github.com/AnasKh21) |
 | 🔒 **Root-Me** | [root-me.org/AnasKh21](https://www.root-me.org/AnasKh21) |
-| 📍 **Localisation** | Île-de-France, France |
+| 📍 **Location** | Île-de-France, France |
 
-⬆️ [Retour en haut](#accueil)
+⬆️ [Back to top](#welcome)
 
 ---
 
