@@ -1,3 +1,17 @@
 title: "Anas Khayar"
-description: "Software & Cybersecurity Engineer | Python · Node.js · Docker · Network Security"
+description: "Software & Cybersecurity Engineer — Seeking a full-time position | Python · Node.js · Docker · Secure by design"
 theme: jekyll-theme-hacker
+plugins:
+  - jekyll-remote-theme
+remote_theme: jekyll/jekyll-theme-hacker
+markdown: kramdown
+author:
+  name: "Anas Khayar"
+  email: "anaskhayar21@gmail.com"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
