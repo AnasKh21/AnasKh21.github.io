@@ -21,12 +21,14 @@ Curious, fast-learning, and adaptable, I enjoy exploring new technologies and co
 ## 🧠 <a name="about"></a>About Me
 
 I hold an **Engineering Degree in Software Engineering & Cybersecurity** from **ENSIIE (École Nationale Supérieure d’Informatique pour l’Industrie et l’Entreprise)**, part of **Institut Mines-Télécom** and **Université Paris-Saclay**.  
-During my experiences, I worked on:
-- Secure development and software automation in the automotive sector (AUTOSAR / UDS standard)
-- Network intrusion detection, pentesting, and cybersecurity audits
-- Secure backend development and authentication systems  
 
-I am versatile — equally comfortable writing **Python scripts**, designing **web or Android applications**, or analyzing **security incidents** in simulated networks.
+I specialize in **designing, developing, testing, and securing software systems** with a strong emphasis on reliability and security-by-design.  
+My experience covers both **software engineering** (architecture, testing, automation) and **cybersecurity** (offensive and defensive).  
+
+I’m comfortable working on **network and web pentesting**, **reverse engineering**, and **system hardening**, as well as analyzing and monitoring infrastructures using **SIEM and IDS tools** such as Wazuh, Suricata, or ELK.  
+
+I continuously improve my skills through **hands-on challenges**, **certifications**, and **self-training**, constantly expanding my expertise in **programming, threat analysis, and secure software design**.  
+
 
 ---
 
