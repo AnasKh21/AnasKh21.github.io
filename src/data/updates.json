@@ -1,0 +1,6 @@
+[
+    { "date": "2025-10-22", "title": "New VM released: VM-Two", "href": "/pwn/vm-two" },
+    { "date": "2025-10-20", "title": "Defensive note: CAP_SYS_ADMIN", "href": "/notes/cap-sys-admin" },
+    { "date": "2025-10-15", "title": "Project: CyberGraph deep dive", "href": "/projects#cybergraph" }
+  ]
+  

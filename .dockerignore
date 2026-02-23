@@ -1,0 +1,14 @@
+# Fichiers et dossiers générés par Node/npm
+node_modules
+npm-debug.log
+
+# Fichiers de construction Node/Vite (souvent inutiles dans le build final)
+dist
+
+# Fichiers système et IDE
+.git
+.vscode
+
+# Fichiers temporaires ou spécifiques à l'hôte
+*.log
+*~
